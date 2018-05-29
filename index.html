@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokemon API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="./assets/favicon.ico" rel="icon" type="image/x-icon" />
+    
+</head>
+<body>
+        <h1>Pokedex Database</h1>
+        <div class="container">
+            <div class="top">
+                <div class="row">
+                    <div class="col-sm-offset-2 col-sm-8">
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary" id="searchButton" onclick="searchPokemon()">Search!</button>
+                            </span>
+                            <input type="text" class="form-control" placeholder="Find the perfect counter for a pokemon" id="searchPoke">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="pokedex">
+                <div class="row">
+                    <div class="col-md-offset-6 col-md-2">
+                        <div id="name">
+                            <h1>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="col-md-offset-8 col-md-1">
+                        <div id="button">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-md-offset-7 col-md-1">
+                        <div id="weight">
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="sprite">
+                    <p>
+                    </p>
+                </div>
+                <div id="hpBar">
+                    <p>
+                    </p>
+                </div>
+                <div id="mainStats">
+                    <p>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    <script src="pokemon.js"></script>
+    
+</body>
+</html>
